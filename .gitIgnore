@@ -1,6 +1,20 @@
-./node_modules
-.env
-./config
-.package-lock.json
-.package.json
+node_modules/
+*.log
+/user-config/
+package-lock.json
+yarn.json
 
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
+build/
+dist/
+*.exe
+*.dll
